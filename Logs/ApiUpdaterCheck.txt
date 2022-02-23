@@ -1,0 +1,30 @@
+[api-updater (non-obsolete-error-filter)] 23-02-2022 14:31:52 : Starting /Users/ayushshah/Desktop/2020.3.29f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 600.703ms
+moved types parse time: 50ms
+candidates parse time : 2ms
+C# parse time         : 359ms
+candidates check time : 23ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 23-02-2022 15:35:04 : Starting /Users/ayushshah/Desktop/2020.3.29f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 119.871ms
+moved types parse time: 52ms
+candidates parse time : 3ms
+C# parse time         : 214ms
+candidates check time : 23ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 23-02-2022 16:44:12 : Starting /Users/ayushshah/Desktop/2020.3.29f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 116.49ms
+moved types parse time: 54ms
+candidates parse time : 3ms
+C# parse time         : 246ms
+candidates check time : 24ms
+console write time    : 1ms
+
