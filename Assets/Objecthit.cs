@@ -6,7 +6,11 @@ public class Objecthit : MonoBehaviour
 {
 
     private void OnCollisionEnter(Collision other) {
-        //Debug.Log("Boom");
+        if(other.gameObject.tag == "Player")
+        {
+            GetComponent<MeshRenderer>().material.color = Color.red;
+            gameObject.tag = "Hit";
+        }//Debug.Log("Boom");
     }
     // Start is called before the first frame update
     void Start()

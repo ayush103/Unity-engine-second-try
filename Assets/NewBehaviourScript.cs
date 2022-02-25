@@ -5,9 +5,13 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    int count = 0;
+    int count = 0, score = 0;
     private void OnCollisionEnter(Collision other) {
-        Debug.Log("Bump");
+        
+        if(other.gameObject.tag != "Hit"){
+            score++;
+            Debug.Log(score);
+        }
         count += 1;
         if (count % 4 == 0)
         {
